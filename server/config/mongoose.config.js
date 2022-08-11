@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose
-  .connect("mongodb://localhot/tetherdb", {
+  .connect("mongodb://localhost/tetherdb", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
